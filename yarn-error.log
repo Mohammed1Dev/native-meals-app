@@ -1,0 +1,78 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add react-native
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Brackets\command;C:\ProgramData\chocolatey\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\Program Files\OpenJDK\openjdk-8u292-b10\bin;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Ruby24-x64\bin;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Local\atom\bin;C:\Program Files\MongoDB\Server\4.2\bin;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\admin\AppData\Roaming\Composer\vendor\bin;C:\Users\admin\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\GitHub CLI\;C:\Program Files\Java\jdk-11.0.9\bin\;C:\laragon\bin\php\php-7.4.7-Win32-vc15-x64;;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Users\admin\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@expo%2fvector-icons: error:0909006C:PEM routines:get_name:no start line
+      at Object.createSecureContext (_tls_common.js:149:17)
+      at Object.connect (_tls_wrap.js:1580:48)
+      at Agent.createConnection (https.js:129:22)
+      at Agent.createSocket (_http_agent.js:323:26)
+      at Agent.addRequest (_http_agent.js:274:10)
+      at new ClientRequest (_http_client.js:306:16)
+      at Object.request (https.js:313:10)
+      at Request.module.exports.Request.start (C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141224:32)
+      at Request.module.exports.Request.end (C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141983:10)
+      at end (C:\Users\admin\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141037:14)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "private": true,
+    "name": "native-meal-app",
+    "version": "1.0.0",
+    "author": "Mohammed Bettaoui <bettapro100@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@expo/vector-icons": "^12.0.0",
+      "@react-native-community/masked-view": "0.1.10",
+      "expo": "~41.0.1",
+      "expo-status-bar": "~1.0.4",
+      "expo-font": "~9.1.0",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-41.0.0.tar.gz",
+      "react-native-web": "~0.13.12",
+      "react-native-gesture-handler": "~1.10.2",
+      "react-native-paper": "^3.9.0",
+      "react-native-reanimated": "~2.1.0",
+      "react-native-safe-area-context": "3.2.0",
+      "react-native-screens": "~3.0.0",
+      "react-navigation": "^4.3.9",
+      "react-navigation-drawer": "^2.4.13",
+      "react-navigation-header-buttons": "^3.0.5",
+      "react-navigation-material-bottom-tabs": "^2.2.12",
+      "react-navigation-stack": "^2.4.0",
+      "react-navigation-tabs": "^2.8.13",
+      "react-redux": "^7.2.0",
+      "redux": "^4.0.5"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.9.0",
+      "babel-preset-expo": "~8.1.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
